@@ -17,10 +17,12 @@ To use this repository, you need to install .NET Core SDK. Then, you can run the
 
 We always need your help to add new examples of design patterns to this repository. Please submit your pull requests.
 
+## Support Us
+
+If you find this repository useful, please consider giving us a star!
+
 ## License
 
 This project is published under the MIT license.
 
-## Support Us
 
-If you find this repository useful, please consider giving us a star!
