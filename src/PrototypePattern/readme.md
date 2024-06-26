@@ -23,6 +23,3 @@ To use the Prototype pattern:
 
 Check out the [source code](src/PrototypePattern) for a sample implementation of the Prototype pattern in C#.
 
----
-
-Feel free to customize this README.md file to match the specifics of your PrototypePattern project. If you have any questions or need further clarification, please don't hesitate to reach out.
