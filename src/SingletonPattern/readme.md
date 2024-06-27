@@ -10,8 +10,8 @@ The Singleton Pattern ensures that a class has only one instance and provides a 
 ## Implementation
 
 The Singleton Pattern is implemented in the following classes:
-- `SingletonPattern.java`: Contains the main Singleton class.
-- `Main.java`: Contains an example of how to use the Singleton Pattern.
+- `Singleton`: Contains the main Singleton class.
+- `Program.cs`: Contains an example of how to use the Singleton Pattern.
 
 ## Usage
 
