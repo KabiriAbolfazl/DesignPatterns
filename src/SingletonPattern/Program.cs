@@ -1,19 +1,21 @@
-﻿using SingletonPattern.ThreadSafe;
+﻿using SingletonPattern.BaseSingleton;
+using SingletonPattern.RealLife;
+using SingletonPattern.ThreadSafe;
 
-//Singleton ins1 = Singleton.Instance;
-//Singleton ins2 = Singleton.Instance;
+Singleton ins1 = Singleton.Instance;
+Singleton ins2 = Singleton.Instance;
 
-//Console.WriteLine(ins1 == ins2);
+Console.WriteLine(ins1 == ins2);
 
-//RegisterCounter registerCounter1 = RegisterCounter.Instance;
-//RegisterCounter registerCounter2 = RegisterCounter.Instance;
-//RegisterCounter registerCounter3 = RegisterCounter.Instance;
+RegisterCounter registerCounter1 = RegisterCounter.Instance;
+RegisterCounter registerCounter2 = RegisterCounter.Instance;
+RegisterCounter registerCounter3 = RegisterCounter.Instance;
 
-//registerCounter1.Register();
-//registerCounter2.Register();
-//registerCounter3.Register();
+registerCounter1.Register();
+registerCounter2.Register();
+registerCounter3.Register();
 
-//Console.WriteLine(registerCounter1.TotalRegisterCount);
+Console.WriteLine(registerCounter1.TotalRegisterCount);
 
 var range = Enumerable.Range(0, 10);
 
